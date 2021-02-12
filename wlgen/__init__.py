@@ -1,3 +1,8 @@
+def combine_words(words):
+    from itertools import product
+    
+    return  product(*words)
+
 def gen_wordlist(charset):
     """Recursively build a wordlist in memory
 
